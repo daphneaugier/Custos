@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/login_fragment">
 
     <fragment
         android:id="@+id/login_fragment"
-        android:name="com.example.custos.ui.login.Login"
+        android:name="com.example.custos.ui.login.LoginFragment"
         android:label="@string/title_login"
         tools:layout="@layout/login_fragment" >
         <action
