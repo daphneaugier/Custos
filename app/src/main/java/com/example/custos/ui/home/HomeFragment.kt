@@ -33,21 +33,20 @@ class HomeFragment : Fragment() {
         val lockIcon: ImageView = root.findViewById(R.id.lockIcon)
 
         armButton.setOnClickListener {
-            if ( armButton.text == "DISARM"){
-                armButton.text = "ARM"
+            if ( armButton.text == getText(R.string.disarm)){
+                armButton.text = getText(R.string.arm)
                 lockIcon.setImageDrawable(
                     ContextCompat.getDrawable(
                         getActivity()!!.getApplicationContext(),
                         R.drawable.ic_unlock))
             }else{
-                armButton.text = "DISARM"
+                armButton.text = getText(R.string.disarm)
                 lockIcon.setImageDrawable(
                     ContextCompat.getDrawable(
                         getActivity()!!.getApplicationContext(),
                         R.drawable.ic_lock))
             }
         }
-
 
         return root
     }

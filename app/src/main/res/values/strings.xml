@@ -7,4 +7,6 @@
     <string name="user_id">Name</string>
     <string name="password">Password</string>
     <string name="system">System is</string>
+    <string name="arm">ARM</string>
+    <string name="disarm">DISARM</string>
 </resources>
