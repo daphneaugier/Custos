@@ -31,38 +31,66 @@
             android:textColor="@color/black"
             android:textSize="22dip" />
 
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Select period "
+            android:textSize="16dip"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="296dp" />
+
+        <LinearLayout
+        android:id="@+id/linearFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/link_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="From : "
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/from_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" 25 April 2020 "
+                android:textSize="16dip" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
+    <LinearLayout
+        android:id="@+id/linearTo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:gravity="center"
-        android:text="To : "
-        android:textSize="16dip"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="402dp" />
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="To : "
+            android:textSize="16dip"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="402dp" />
+        <TextView
+            android:id="@+id/to_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" 25 April 2020 "
+            android:textSize="16dip" />
 
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="From : "
-        android:textSize="16dip"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="335dp" />
-
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Select period "
-        android:textSize="16dip"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="296dp" />
-
+    </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
