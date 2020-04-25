@@ -38,13 +38,13 @@ class HomeFragment : Fragment() {
                 lockIcon.setImageDrawable(
                     ContextCompat.getDrawable(
                         getActivity()!!.getApplicationContext(),
-                        R.drawable.ic_lock))
+                        R.drawable.ic_unlock))
             }else{
                 armButton.text = "DISARM"
                 lockIcon.setImageDrawable(
                     ContextCompat.getDrawable(
                         getActivity()!!.getApplicationContext(),
-                        R.drawable.ic_unlock))
+                        R.drawable.ic_lock))
             }
         }
 
