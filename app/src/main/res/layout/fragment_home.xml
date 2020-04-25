@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="168dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="70dp"
+            android:layout_marginBottom="20dp"
             android:src="@drawable/custos_logo" />
 
         <TextView
