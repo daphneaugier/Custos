@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">Custos</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">Device</string>
+    <string name="title_notifications">History</string>
     <string name="title_login">Log In</string>
+    <string name="user_id">Name</string>
+    <string name="password">Password</string>
+    <string name="system">System is</string>
+    <string name="arm">ARM</string>
+    <string name="disarm">DISARM</string>
+    <string name="device">Your Device</string>
+    <string name="serial">Serial</string>
+    <string name="Update">Update</string>
 </resources>
