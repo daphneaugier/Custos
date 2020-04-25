@@ -20,64 +20,60 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-5dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="153dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="70dp"
             android:src="@drawable/custos_logo" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="191dp"
+            android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="wrap_content"
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="142dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="129dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="System is "
+                app:layout_constraintBottom_toTopOf="@+id/text_home"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <ImageView
+                android:layout_width="107dp"
+                android:layout_height="82dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/ic_lock"
+                android:tint="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="129dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="System:"
-            app:layout_constraintBottom_toTopOf="@+id/text_home"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="114dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:tint="@color/colorPrimaryDark"
-            android:layout_marginBottom="12dp"
-            android:src="@drawable/ic_lock" />
-    </LinearLayout>
+            <Button
+                android:id="@+id/buttonARM"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Disarm" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonARM"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ARM" />
-
-        <Button
-            android:id="@+id/button_view_log"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="View Log" />
-    </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
