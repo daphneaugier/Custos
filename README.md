@@ -12,6 +12,6 @@ Create a prototype for the mobile application made to ensure people's house's se
 | Daphné Augier     | 40036123 |
 
 ## Technologies used
-* Android Studio - Java
+* Android Studio - Kotlin
 
 
