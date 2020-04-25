@@ -6,4 +6,5 @@
     <string name="title_login">Log In</string>
     <string name="user_id">Name</string>
     <string name="password">Password</string>
+    <string name="system">System is</string>
 </resources>
