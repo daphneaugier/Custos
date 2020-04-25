@@ -91,6 +91,37 @@
             android:textSize="16dip" />
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="40dp">
+        <TextView
+            android:id="@+id/item_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="25/04/2020 |"
+            android:textSize="16dip" />
+        <TextView
+            android:id="@+id/item_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Some bla bla |"
+            android:textSize="16dip" />
+        <TextView
+            android:id="@+id/item_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="16dip" />
+
+    </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
