@@ -21,12 +21,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-5dp">
+        android:layout_gravity="center"
+        android:paddingTop="60dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="153dp"
+            android:layout_height="168dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="70dp"
             android:src="@drawable/custos_logo" />
