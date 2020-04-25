@@ -16,10 +16,20 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="168dp"
+            android:layout_height="136dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="70dp"
             android:src="@drawable/custos_logo" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="HISTORY LOGS OF ALERTS "
+        android:textSize="22dip"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="153dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
