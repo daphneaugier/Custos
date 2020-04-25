@@ -9,9 +9,8 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="353dp"
         android:orientation="vertical"
         android:paddingTop="6dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -152,6 +151,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+
                     android:text="X"
                     android:textAlignment="center" />
             </TableRow>
