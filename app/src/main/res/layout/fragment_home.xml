@@ -20,9 +20,12 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="center"
-        android:paddingTop="60dp">
+        android:layout_marginBottom="287dp"
+        android:orientation="vertical"
+        android:paddingTop="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -72,13 +75,14 @@
 
             <Button
                 android:id="@+id/buttonARM"
+                style="@android:style/Widget.Material.Button.Colored"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
                 android:text="@string/disarm"
-                android:textColor="@color/colorPrimaryDark"/>
-
-
+                android:textColor="@color/colorPrimaryDark" />
         </LinearLayout>
 
     </LinearLayout>
