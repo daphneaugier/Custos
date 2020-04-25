@@ -58,7 +58,7 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="SYSTEM IS "
-                android:textColor="@color/black"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="22dp"
                 app:layout_constraintBottom_toTopOf="@+id/text_home"
                 app:layout_constraintStart_toStartOf="parent"
