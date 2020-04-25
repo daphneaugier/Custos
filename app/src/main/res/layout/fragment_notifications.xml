@@ -14,15 +14,6 @@
         android:layout_gravity="center"
         android:paddingTop="60dp">
 
-        <TextView
-            android:id="@+id/link_signup"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="HISTORY LOGS OF ALERTS "
-            android:textSize="22dip"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="153dp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,27 +22,17 @@
             android:layout_marginBottom="20dp"
             android:src="@drawable/custos_logo" />
 
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="HISTORY LOGS OF ALERTS "
+            android:textColor="@color/black"
+            android:textSize="22dip" />
 
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Select period : "
-        android:textSize="16dip"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="203dp" />
 
-    <TextView
-        android:id="@+id/link_signup"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="From : "
-        android:textSize="16dip"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="234dp" />
-
+    </LinearLayout>
 
     <TextView
         android:id="@+id/link_signup"
@@ -61,8 +42,27 @@
         android:text="To : "
         android:textSize="16dip"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="299dp" />
-    </LinearLayout>
+        tools:layout_editor_absoluteY="402dp" />
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="From : "
+        android:textSize="16dip"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select period "
+        android:textSize="16dip"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="296dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
