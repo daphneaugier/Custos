@@ -7,7 +7,7 @@
     tools:context=".ui.notifications.NotificationsFragment">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/home_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center"
