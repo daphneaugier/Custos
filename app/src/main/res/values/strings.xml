@@ -6,10 +6,10 @@
     <string name="title_login">Log In</string>
     <string name="user_id">Name</string>
     <string name="password">Password</string>
-    <string name="system">System is</string>
+    <string name="system">System is currently: </string>
     <string name="arm">ARM</string>
     <string name="disarm">DISARM</string>
-    <string name="device">Your Device</string>
-    <string name="serial">Serial</string>
+    <string name="device">Kitchen</string>
+    <string name="serial">TEST_SERIAL_1234</string>
     <string name="Update">Update</string>
 </resources>

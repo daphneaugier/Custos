@@ -7,7 +7,7 @@
     tools:context=".ui.dashboard.DashboardFragment">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/home_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -39,7 +39,7 @@
         android:textColor="@color/colorPrimary"
         android:paddingTop="60dp"
         android:textSize="22dip"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout"/>
+        app:layout_constraintTop_toBottomOf="@id/home_view"/>
 
     <Button
         style="@android:style/Widget.Material.Button.Colored"
